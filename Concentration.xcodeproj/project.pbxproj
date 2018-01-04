@@ -14,6 +14,8 @@
 		356BE82A1FFDA5390068E79E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356BE8281FFDA5390068E79E /* LaunchScreen.storyboard */; };
 		356BE8351FFDA5390068E79E /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BE8341FFDA5390068E79E /* ConcentrationTests.swift */; };
 		356BE8401FFDA5390068E79E /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BE83F1FFDA5390068E79E /* ConcentrationUITests.swift */; };
+		356BE84E1FFDA6CB0068E79E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BE84D1FFDA6CB0068E79E /* Card.swift */; };
+		356BE8501FFDA6F90068E79E /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BE84F1FFDA6F90068E79E /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		356BE83B1FFDA5390068E79E /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356BE83F1FFDA5390068E79E /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		356BE8411FFDA5390068E79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356BE84D1FFDA6CB0068E79E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		356BE84F1FFDA6F90068E79E /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				356BE81F1FFDA5390068E79E /* AppDelegate.swift */,
 				356BE8211FFDA5390068E79E /* ViewController.swift */,
 				356BE8231FFDA5390068E79E /* Main.storyboard */,
+				356BE84D1FFDA6CB0068E79E /* Card.swift */,
+				356BE84F1FFDA6F90068E79E /* Concentration.swift */,
 				356BE8261FFDA5390068E79E /* Assets.xcassets */,
 				356BE8281FFDA5390068E79E /* LaunchScreen.storyboard */,
 				356BE82B1FFDA5390068E79E /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				356BE8221FFDA5390068E79E /* ViewController.swift in Sources */,
+				356BE8501FFDA6F90068E79E /* Concentration.swift in Sources */,
+				356BE84E1FFDA6CB0068E79E /* Card.swift in Sources */,
 				356BE8201FFDA5390068E79E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +438,7 @@
 				DEVELOPMENT_TEAM = 4SH8GS798A;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Personal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Concentration.250;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +453,7 @@
 				DEVELOPMENT_TEAM = 4SH8GS798A;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Personal.Concentration;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Concentration.250;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
